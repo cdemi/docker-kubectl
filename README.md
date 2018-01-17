@@ -1,5 +1,11 @@
-# Kubectl in Docker
-This Docker container is just an Alpine Image with `kubectl` installed and set as entrypoint. So you just run the Docker container and give it the command you need to run
+Kubectl in Docker
+===
+
+This repository contains Docker container images based on Alpine Image with `kubectl` installed and set as entrypoint. So you just run the Docker container and give it the command you need to run
+
+# Supported tags
+- [`1.9.1`, `latest` (*/Dockerfile*)](https://github.com/cdemi/docker-kubectl/blob/v1.9.1/Dockerfile)
+- [`1.8.7` (*/Dockerfile*)](https://github.com/cdemi/docker-kubectl/blob/v1.8.7/Dockerfile)
 
 ## How to use
 To get `kubectl` to work you need to supply kubernetes config file, you can use the `-v <hostdir>:/root/.kube` to mount a local volume in the container
