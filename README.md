@@ -1,4 +1,5 @@
 # Kubectl in Docker
+## 1.8.7
 This Docker container is just an Alpine Image with `kubectl` installed and set as entrypoint. So you just run the Docker container and give it the command you need to run
 
 ## How to use
