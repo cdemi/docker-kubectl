@@ -1,3 +1,5 @@
+[![Docker Build Status](https://img.shields.io/docker/build/cdemi/kubectl.svg)](https://hub.docker.com/r/cdemi/kubectl/)
+
 Kubectl in Docker
 ===
 
