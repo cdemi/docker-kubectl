@@ -6,7 +6,8 @@ Kubectl in Docker
 This repository contains Docker container images based on Alpine Image with `kubectl` installed and set as entrypoint. So you just run the Docker container and give it the command you need to run
 
 # Supported tags
-- [`1.9.2`, `latest` (*/Dockerfile*)](https://github.com/cdemi/docker-kubectl/blob/v1.9.2/Dockerfile)
+- [`1.9.3`, `latest` (*/Dockerfile*)](https://github.com/cdemi/docker-kubectl/blob/v1.9.3/Dockerfile)
+- [`1.9.2` (*/Dockerfile*)](https://github.com/cdemi/docker-kubectl/blob/v1.9.2/Dockerfile)
 - [`1.9.1` (*/Dockerfile*)](https://github.com/cdemi/docker-kubectl/blob/v1.9.1/Dockerfile)
 - [`1.8.7` (*/Dockerfile*)](https://github.com/cdemi/docker-kubectl/blob/v1.8.7/Dockerfile)
 
